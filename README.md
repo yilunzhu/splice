@@ -14,7 +14,7 @@ This repository contains the mention span data and the source code of the paper 
 In this work, we introduce a novel approach to address the coreference resolution challenge. It establishes a near-gold singleton dataset for OntoNotes, which is shown to be highly accurate. This dataset can benefit further research endeavors involving singletons in coreference systems. Additionally, we propose SPLICE, a pipeline-based neural system that independently trains mention detection and coreference models. Our system achieves comparable in-domain results with the end-to-end approach and demonstrates superior out-of-domain performance. Leveraging the better interpretability of our system, we conduct a comprehensive analysis of mention predictions. We discover that resolving additional recall errors is more challenging than addressing precision errors, which offers valuable insight for future work in coreference resolution research. <br><br>
 
 <p align="center">
-  <img src="./img/architecture.jpg" width="800">
+  <img src="./img/architecture.png" width="800">
   <em>The Pipeline of SPLICE.</em>
 </p>
 
