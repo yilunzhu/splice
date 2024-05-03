@@ -18,6 +18,11 @@ In this work, we introduce a novel approach to address the coreference resolutio
   <em>The Pipeline of SPLICE.</em>
 </p>
 
+<p align="center">
+  <img src="./img/effect.png" width="800">
+  <em>Analyzing the impact of recall and precision scores on the OntoNotes development set.</em>
+</p>
+
 ## Data
 We create a dataset that includes mention spans from OntoNotes 5.0. These spans are a combination of coreference markable spans (gold) and singleton spans. You can find this span data in the following directory: `./data/ontonotes5_mentions.zip`.
 
