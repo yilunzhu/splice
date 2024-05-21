@@ -79,13 +79,25 @@ Modify based on the implementation from [coref-hoi](https://github.com/lxucs/cor
 
 ## Citation
 ```
-@misc{zhu2024splice,
-      title={SPLICE: A Singleton-Enhanced PipeLIne for Coreference REsolution}, 
-      author={Yilun Zhu and Siyao Peng and Sameer Pradhan and Amir Zeldes},
-      year={2024},
-      eprint={2403.17245},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{zhu-etal-2024-splice-singleton,
+    title = "{SPLICE}: A Singleton-Enhanced {P}ipe{LI}ne for Coreference {RE}solution",
+    author = "Zhu, Yilun  and
+      Peng, Siyao  and
+      Pradhan, Sameer  and
+      Zeldes, Amir",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italy",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.1321",
+    pages = "15191--15201",
 }
 ```
 ## Contact
