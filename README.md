@@ -1,20 +1,20 @@
 # SPLICE: A Singleton-Enhanced PipeLIne for Coreference REsolution
 
-[**Paper**](https://arxiv.org/pdf/2403.17245.pdf) |
+[**Paper**](https://aclanthology.org/2024.lrec-main.1321.pdf) |
 [**Introduction**](#introduction) | [**Data**](#data) | [**Prerequisites**](#prerequisites) | [**Usage**](#usage) |
 [**Citation**](#citation) | [**Contact**](#contact)
 
 ## Introduction
 This repository contains the mention span data and the source code of the paper from:
 
-- [SPLICE: A Singleton-Enhanced PipeLIne for Coreference REsolution](https://arxiv.org/pdf/2403.17245.pdf)
+- [SPLICE: A Singleton-Enhanced PipeLIne for Coreference REsolution](https://aclanthology.org/2024.lrec-main.1321.pdf)
 - [Yilun Zhu](http://yilunzhu.com/), [Siyao Peng](https://logan-siyao-peng.github.io/), [Sameer Pradhan](https://cemantix.org/), and [Amir Zeldes](https://corpling.uis.georgetown.edu/amir/)
 
 <br>
 In this work, we introduce a novel approach to address the coreference resolution challenge. It establishes a near-gold singleton dataset for OntoNotes, which is shown to be highly accurate. This dataset can benefit further research endeavors involving singletons in coreference systems. Additionally, we propose SPLICE, a pipeline-based neural system that independently trains mention detection and coreference models. Our system achieves comparable in-domain results with the end-to-end approach and demonstrates superior out-of-domain performance. <br><br>
 
 <p align="center">
-  <img src="./img/architecture.png" width="800">
+  <img src="./img/architecture.png" width="800"><br>
   <em>The Pipeline of SPLICE.</em>
 </p>
 
@@ -22,7 +22,7 @@ In this work, we introduce a novel approach to address the coreference resolutio
 <br>Leveraging the better interpretability of our system, we conduct a comprehensive analysis of mention predictions. We discover that resolving additional recall errors is more challenging than addressing precision errors, which offers valuable insight for future work in coreference resolution research. <br>
 
 <p align="center">
-  <img src="./img/effect.png" width="800">
+  <img src="./img/effect.png" width="800"><br>
   <em>Analyzing the impact of recall and precision scores on the OntoNotes development set.</em>
 </p>
 
